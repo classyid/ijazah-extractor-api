@@ -36,7 +36,7 @@ Sebelum memulai deployment, pastikan Anda memiliki:
 4. Set permission ke **"Anyone with the link can view"** (opsional)
 5. Copy Folder ID dari URL:
    ```
-   https://drive.google.com/drive/folders/1xJZEnuY2XQBYttRP8Z1lQLZDK9GzCWlH
+   https://drive.google.com/drive/folders/1xddEnuY2XQBYttRP8Z1lQLZDK9GzCWlH
                                           ↑
                                     Folder ID
    ```
@@ -48,7 +48,7 @@ Sebelum memulai deployment, pastikan Anda memiliki:
 2. Buat spreadsheet baru dengan nama "Ijazah Extractor Logs"
 3. Copy Spreadsheet ID dari URL:
    ```
-   https://docs.google.com/spreadsheets/d/1LTLNWa2YGVz9zUFdcWkkjpCvXg6n0GDn__GCuBctHH8/edit
+   https://docs.google.com/spreadsheets/d/1LTLNWa2YGVz9zUFdcWkkjpCvdd6n0GDn__GCuBctHH8/edit
                                            ↑
                                    Spreadsheet ID
    ```
@@ -74,13 +74,13 @@ Script akan otomatis membuat sheets berikut jika belum ada:
 
 ```javascript
 // Config - UPDATE NILAI-NILAI INI
-const GEMINI_API_KEY = 'AIzaSyAqcaFXb9ELf7JpCW5bjhD24bi7t7yN25o'; // Ganti dengan API Key Anda
+const GEMINI_API_KEY = 'dddf7JpCW5bjhD24bi7t7yN25o'; // Ganti dengan API Key Anda
 const GEMINI_MODEL = 'gemini-2.0-flash';
-const SPREADSHEET_ID = '1LTLNWa2YGVz9zUFdcWkkjpCvXg6n0GDn__GCuBctHH8'; // Ganti dengan ID Sheets Anda
+const SPREADSHEET_ID = '1LTLNWa2ddddkkjpCvXg6n0GDn__GCuBctHH8'; // Ganti dengan ID Sheets Anda
 const LOG_SHEET_NAME = 'log';
 const METADATA_SHEET_NAME = 'metadata';
 const TRANSACTIONS_SHEET_NAME = 'data_ijazah';
-const FOLDER_ID = '1xJZEnuY2XQBYttRP8Z1lQLZDK9GzCWlH'; // Ganti dengan ID Folder Drive Anda
+const FOLDER_ID = '1xJddddYttRP8Z1lQLZDK9GzCWlH'; // Ganti dengan ID Folder Drive Anda
 ```
 
 ### 4.3 Menyimpan Project
